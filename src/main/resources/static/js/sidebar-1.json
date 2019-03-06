@@ -1,0 +1,29 @@
+[{
+        "name": "系统",
+        "icon": "cubes",
+        "open": true,
+        "menus": [
+          {
+            "name": "个人信息",
+            "url": "views/selfInfo"
+          }
+
+
+        ]
+    },
+    {
+        "name": "医疗影像",
+        "icon": "map-signs",
+        "open": true,
+        "menus": [
+            {
+                "name": "影像管理",
+                "url": "views/charge"
+            },
+          {
+            "name": "影像浏览",
+            "url": "views/handle"
+          }
+        ]
+    }
+]

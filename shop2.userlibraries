@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="Maven: ch.qos.logback:logback-classic:1.1.11">
+    <archive path="C:/Users/marsh/.m2/repository/ch/qos/logback/logback-classic/1.1.11/logback-classic-1.1.11.jar" />
+  </library>
+  <library name="Maven: ch.qos.logback:logback-core:1.1.11">
+    <archive path="C:/Users/marsh/.m2/repository/ch/qos/logback/logback-core/1.1.11/logback-core-1.1.11.jar" />
+  </library>
+  <library name="Maven: com.fasterxml:classmate:1.3.3">
+    <archive path="C:/Users/marsh/.m2/repository/com/fasterxml/classmate/1.3.3/classmate-1.3.3.jar" />
+  </library>
+  <library name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.8.0">
+    <archive path="C:/Users/marsh/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar" />
+  </library>
+  <library name="Maven: com.fasterxml.jackson.core:jackson-core:2.8.9">
+    <archive path="C:/Users/marsh/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9.jar" />
+  </library>
+  <library name="Maven: com.fasterxml.jackson.core:jackson-databind:2.8.9">
+    <archive path="C:/Users/marsh/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9.jar" />
+  </library>
+  <library name="Maven: com.google.collections:google-collections:1.0">
+    <archive path="C:/Users/marsh/.m2/repository/com/google/collections/google-collections/1.0/google-collections-1.0.jar" />
+  </library>
+  <library name="Maven: com.h2database:h2:1.4.196">
+    <archive path="C:/Users/marsh/.m2/repository/com/h2database/h2/1.4.196/h2-1.4.196.jar" />
+  </library>
+  <library name="Maven: commons-io:commons-io:2.2">
+    <archive path="C:/Users/marsh/.m2/repository/commons-io/commons-io/2.2/commons-io-2.2.jar" />
+  </library>
+  <library name="Maven: commons-lang:commons-lang:2.5">
+    <archive path="C:/Users/marsh/.m2/repository/commons-lang/commons-lang/2.5/commons-lang-2.5.jar" />
+  </library>
+  <library name="Maven: io.ebean:ebean:10.4.2">
+    <archive path="C:/Users/marsh/.m2/repository/io/ebean/ebean/10.4.2/ebean-10.4.2.jar" />
+  </library>
+  <library name="Maven: io.ebean:ebean-annotation:2.3">
+    <archive path="C:/Users/marsh/.m2/repository/io/ebean/ebean-annotation/2.3/ebean-annotation-2.3.jar" />
+  </library>
+  <library name="Maven: io.ebean:ebean-dbmigration:10.1.10">
+    <archive path="C:/Users/marsh/.m2/repository/io/ebean/ebean-dbmigration/10.1.10/ebean-dbmigration-10.1.10.jar" />
+  </library>
+  <library name="Maven: io.ebean:ebean-querybean:10.3.1">
+    <archive path="C:/Users/marsh/.m2/repository/io/ebean/ebean-querybean/10.3.1/ebean-querybean-10.3.1.jar" />
+  </library>
+  <library name="Maven: io.ebean:persistence-api:2.2.1">
+    <archive path="C:/Users/marsh/.m2/repository/io/ebean/persistence-api/2.2.1/persistence-api-2.2.1.jar" />
+  </library>
+  <library name="Maven: io.ebean:querybean-generator:10.2.1">
+    <archive path="C:/Users/marsh/.m2/repository/io/ebean/querybean-generator/10.2.1/querybean-generator-10.2.1.jar" />
+  </library>
+  <library name="Maven: javax.validation:validation-api:1.1.0.Final">
+    <archive path="C:/Users/marsh/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar" />
+  </library>
+  <library name="Maven: log4j:log4j:1.2.17">
+    <archive path="C:/Users/marsh/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar" />
+  </library>
+  <library name="Maven: mysql:mysql-connector-java:5.1.43">
+    <archive path="C:/Users/marsh/.m2/repository/mysql/mysql-connector-java/5.1.43/mysql-connector-java-5.1.43.jar" />
+  </library>
+  <library name="Maven: nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect:1.4.0">
+    <archive path="C:/Users/marsh/.m2/repository/nz/net/ultraq/thymeleaf/thymeleaf-layout-dialect/1.4.0/thymeleaf-layout-dialect-1.4.0.jar" />
+  </library>
+  <library name="Maven: ognl:ognl:3.0.8">
+    <archive path="C:/Users/marsh/.m2/repository/ognl/ognl/3.0.8/ognl-3.0.8.jar" />
+  </library>
+  <library name="Maven: org.antlr:antlr4-runtime:4.6">
+    <archive path="C:/Users/marsh/.m2/repository/org/antlr/antlr4-runtime/4.6/antlr4-runtime-4.6.jar" />
+  </library>
+  <library name="Maven: org.apache.commons:commons-lang3:3.4">
+    <archive path="C:/Users/marsh/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar" />
+  </library>
+  <library name="Maven: org.apache.tomcat.embed:tomcat-embed-core:8.5.16">
+    <archive path="C:/Users/marsh/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.16/tomcat-embed-core-8.5.16.jar" />
+  </library>
+  <library name="Maven: org.apache.tomcat.embed:tomcat-embed-el:8.5.16">
+    <archive path="C:/Users/marsh/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/8.5.16/tomcat-embed-el-8.5.16.jar" />
+  </library>
+  <library name="Maven: org.apache.tomcat.embed:tomcat-embed-websocket:8.5.16">
+    <archive path="C:/Users/marsh/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.16/tomcat-embed-websocket-8.5.16.jar" />
+  </library>
+  <library name="Maven: org.avaje:avaje-classpath-scanner:2.2.2">
+    <archive path="C:/Users/marsh/.m2/repository/org/avaje/avaje-classpath-scanner/2.2.2/avaje-classpath-scanner-2.2.2.jar" />
+  </library>
+  <library name="Maven: org.avaje:avaje-classpath-scanner-api:2.2">
+    <archive path="C:/Users/marsh/.m2/repository/org/avaje/avaje-classpath-scanner-api/2.2/avaje-classpath-scanner-api-2.2.jar" />
+  </library>
+  <library name="Maven: org.avaje:avaje-datasource:2.1.1">
+    <archive path="C:/Users/marsh/.m2/repository/org/avaje/avaje-datasource/2.1.1/avaje-datasource-2.1.1.jar" />
+  </library>
+  <library name="Maven: org.avaje:avaje-datasource-api:1.1">
+    <archive path="C:/Users/marsh/.m2/repository/org/avaje/avaje-datasource-api/1.1/avaje-datasource-api-1.1.jar" />
+  </library>
+  <library name="Maven: org.codehaus.groovy:groovy:2.4.12">
+    <archive path="C:/Users/marsh/.m2/repository/org/codehaus/groovy/groovy/2.4.12/groovy-2.4.12.jar" />
+  </library>
+  <library name="Maven: org.hibernate:hibernate-validator:5.3.5.Final">
+    <archive path="C:/Users/marsh/.m2/repository/org/hibernate/hibernate-validator/5.3.5.Final/hibernate-validator-5.3.5.Final.jar" />
+  </library>
+  <library name="Maven: org.javassist:javassist:3.21.0-GA">
+    <archive path="C:/Users/marsh/.m2/repository/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA.jar" />
+  </library>
+  <library name="Maven: org.jboss.logging:jboss-logging:3.3.1.Final">
+    <archive path="C:/Users/marsh/.m2/repository/org/jboss/logging/jboss-logging/3.3.1.Final/jboss-logging-3.3.1.Final.jar" />
+  </library>
+  <library name="Maven: org.jetbrains:annotations:13.0">
+    <archive path="C:/Users/marsh/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar" />
+  </library>
+  <library name="Maven: org.slf4j:jcl-over-slf4j:1.7.25">
+    <archive path="C:/Users/marsh/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.jar" />
+  </library>
+  <library name="Maven: org.slf4j:jul-to-slf4j:1.7.25">
+    <archive path="C:/Users/marsh/.m2/repository/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.jar" />
+  </library>
+  <library name="Maven: org.slf4j:log4j-over-slf4j:1.7.25">
+    <archive path="C:/Users/marsh/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.25/log4j-over-slf4j-1.7.25.jar" />
+  </library>
+  <library name="Maven: org.slf4j:slf4j-api:1.7.25">
+    <archive path="C:/Users/marsh/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar" />
+  </library>
+  <library name="Maven: org.springframework.boot:spring-boot:1.5.6.RELEASE">
+    <archive path="C:/Users/marsh/.m2/repository/org/springframework/boot/spring-boot/1.5.6.RELEASE/spring-boot-1.5.6.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.5.6.RELEASE">
+    <archive path="C:/Users/marsh/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.6.RELEASE/spring-boot-autoconfigure-1.5.6.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework.boot:spring-boot-devtools:1.5.6.RELEASE">
+    <archive path="C:/Users/marsh/.m2/repository/org/springframework/boot/spring-boot-devtools/1.5.6.RELEASE/spring-boot-devtools-1.5.6.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework.boot:spring-boot-starter:1.5.6.RELEASE">
+    <archive path="C:/Users/marsh/.m2/repository/org/springframework/boot/spring-boot-starter/1.5.6.RELEASE/spring-boot-starter-1.5.6.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework.boot:spring-boot-starter-logging:1.5.6.RELEASE">
+    <archive path="C:/Users/marsh/.m2/repository/org/springframework/boot/spring-boot-starter-logging/1.5.6.RELEASE/spring-boot-starter-logging-1.5.6.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework.boot:spring-boot-starter-thymeleaf:1.5.6.RELEASE">
+    <archive path="C:/Users/marsh/.m2/repository/org/springframework/boot/spring-boot-starter-thymeleaf/1.5.6.RELEASE/spring-boot-starter-thymeleaf-1.5.6.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework.boot:spring-boot-starter-tomcat:1.5.6.RELEASE">
+    <archive path="C:/Users/marsh/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/1.5.6.RELEASE/spring-boot-starter-tomcat-1.5.6.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework.boot:spring-boot-starter-web:1.5.6.RELEASE">
+    <archive path="C:/Users/marsh/.m2/repository/org/springframework/boot/spring-boot-starter-web/1.5.6.RELEASE/spring-boot-starter-web-1.5.6.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-aop:4.3.10.RELEASE">
+    <archive path="C:/Users/marsh/.m2/repository/org/springframework/spring-aop/4.3.10.RELEASE/spring-aop-4.3.10.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-beans:4.3.10.RELEASE">
+    <archive path="C:/Users/marsh/.m2/repository/org/springframework/spring-beans/4.3.10.RELEASE/spring-beans-4.3.10.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-context:4.3.10.RELEASE">
+    <archive path="C:/Users/marsh/.m2/repository/org/springframework/spring-context/4.3.10.RELEASE/spring-context-4.3.10.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-core:4.3.10.RELEASE">
+    <archive path="C:/Users/marsh/.m2/repository/org/springframework/spring-core/4.3.10.RELEASE/spring-core-4.3.10.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-expression:4.3.10.RELEASE">
+    <archive path="C:/Users/marsh/.m2/repository/org/springframework/spring-expression/4.3.10.RELEASE/spring-expression-4.3.10.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-web:4.3.10.RELEASE">
+    <archive path="C:/Users/marsh/.m2/repository/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-webmvc:4.3.10.RELEASE">
+    <archive path="C:/Users/marsh/.m2/repository/org/springframework/spring-webmvc/4.3.10.RELEASE/spring-webmvc-4.3.10.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.thymeleaf:thymeleaf:2.1.5.RELEASE">
+    <archive path="C:/Users/marsh/.m2/repository/org/thymeleaf/thymeleaf/2.1.5.RELEASE/thymeleaf-2.1.5.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.thymeleaf:thymeleaf-spring4:2.1.5.RELEASE">
+    <archive path="C:/Users/marsh/.m2/repository/org/thymeleaf/thymeleaf-spring4/2.1.5.RELEASE/thymeleaf-spring4-2.1.5.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.unbescape:unbescape:1.1.0.RELEASE">
+    <archive path="C:/Users/marsh/.m2/repository/org/unbescape/unbescape/1.1.0.RELEASE/unbescape-1.1.0.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.yaml:snakeyaml:1.17">
+    <archive path="C:/Users/marsh/.m2/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar" />
+  </library>
+  <library name="lib">
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/commons-lang-2.4.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/spring-beans-4.1.7.RELEASE.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/jstl-1.2.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/commons-logging-1.2.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/commons-pool-1.3.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/spring-web-3.2.0.RELEASE.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/spring-context-support-4.1.7.RELEASE.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/validation-api-1.0.0.GA.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/jackson-mapper-asl-1.9.11.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/log4j-1.2.17.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/spring-test-3.2.0.RELEASE.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/jboss-logging-3.1.0.CR2.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/spring-aop-4.1.7.RELEASE.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/spring-expression-4.1.7.RELEASE.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/mybatis-spring-1.2.2.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/shiro-web-1.2.4.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/commons-io-2.4.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/spring-jdbc-3.2.0.RELEASE.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/javassist-3.17.1-GA.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/mybatis-3.3.0.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/spring-beans-3.2.0.RELEASE.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/spring-jdbc-4.1.7.RELEASE.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/spring-tx-3.2.0.RELEASE.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/java-json.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/spring-aspects-3.2.0.RELEASE.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/shiro-spring-1.2.4.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/javax.servlet-api-3.1.0.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/spring-expression-3.2.0.RELEASE.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/commons-beanutils.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/spring-core-4.1.7.RELEASE.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/spring-webmvc-4.1.7.RELEASE.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/json-lib-2.3-jdk15.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/mybatis-spring-1.2.3.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/commons-collections-3.2.1.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/jackson-core-2.8.2.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/spring-aop-3.2.0.RELEASE.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/spring-web-4.1.7.RELEASE.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/spring-core-3.2.0.RELEASE.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/aspectjweaver-1.8.6.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/spring-tx-4.1.7.RELEASE.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/commons-httpclient-3.0.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/log4j-api-2.0-rc1.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/shiro-core-1.2.4.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/spring-orm-3.2.0.RELEASE.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/commons-logging-1.0.4.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/slf4j-log4j12-1.7.12.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/spring-aspects-4.1.7.RELEASE.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/spring-context-support-3.2.0.RELEASE.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/jackson-annotations-2.8.2.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/spring-context-4.1.7.RELEASE.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/asm-3.3.1.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/commons-beanutils-1.8.3.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/hibernate-validator-4.3.0.Final.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/jackson-databind-2.8.2.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/log4j-core-2.0-rc1.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/junit-4.9.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/commons-logging-1.1.1.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/commons-fileupload-1.2.2.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/spring-webmvc-3.2.0.RELEASE.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/cglib-2.2.2.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/ezmorph-1.0.6.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/jackson-core-asl-1.9.11.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/jave-1.0.2.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/slf4j-api-1.7.5.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/slf4j-log4j12-1.7.5.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/commons-dbcp-1.2.2.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/javax.servlet.jsp-api-2.3.1.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/spring-context-3.2.0.RELEASE.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/aopalliance-1.0.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/mybatis-3.2.7.jar" />
+    <archive path="H:/bus最终版/bus/WebRoot/WEB-INF/lib/aspectjweaver-1.6.11.jar" />
+  </library>
+  <library name="spring-1.2.1" />
+</eclipse-userlibraries>
+

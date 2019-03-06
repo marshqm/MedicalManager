@@ -1,0 +1,162 @@
+<div class="card">
+    <form class="search-info row" id="user-search-form">
+        <div class="col-sm-11">
+            <div class="form-group row">
+                <label class="col-form-label col-sm-2">姓名</label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" name="realName">
+                </div>
+                <label class="col-form-label col-sm-2">身份</label>
+                <div class="col-sm-4">
+                    <select  class="form-control" name="userType">
+                        <option value="">请选择</option>
+                        <option value="1">管理员</option>
+                        <option value="2">医生</option>
+                        <option value="3">普通用户</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-1 justify-content-center search-info-btn">
+            <div>
+                <div class="form-group">
+                    <button type="button" class="btn btn-outline-primary btn-block" id="user-search-btn">
+                        <i class="fa fa-search"></i> 查询</button>
+                </div>
+                <div class="form-group">
+                    <button type="reset" class="btn btn-outline-warning btn-block">重置</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+<div class="card main-content">
+    <div class="card-header">
+        <span class="title float-left">用户信息
+            <a href="#" data-toggle="popover" data-trigger="focus" class="text-help" data-content="And here's some amazing content. It's very engaging. Right?">
+                <i class="fa fa-question-circle"></i>
+            </a>
+        </span>
+        <span class="btn-toolbar float-right">
+            <span class="btn-group mr-2">
+                <button type="button" class="btn btn-outline-primary" data-target="#user-mainModal" data-toggle="modal" id="user-main-add">
+                            <i class="fa fa-plus-square"></i> 添加用户
+                </button>
+            </span>
+            <span class="btn-group">
+
+            </span>
+        </span>
+    </div>
+    <div class="card-body">
+        <table id="user-main-table" class="table table-striped" width="100%" cellspacing="0">
+            <thead>
+            <tr>
+                <th>姓名</th>
+                <th>性别</th>
+                <th>年龄</th>
+                <th>身份</th>
+                <th>联系电话</th>
+                <th>籍贯</th>
+                <th>操作</th>
+            </tr>
+            </thead>
+            <tfoot>
+            <tr>
+                <th>姓名</th>
+                <th>性别</th>
+                <th>年龄</th>
+                <th>身份</th>
+                <th>联系电话</th>
+                <th>籍贯</th>
+                <th>操作</th>
+            </tr>
+            </tfoot>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="user-mainModal" tabindex="-1" role="dialog" aria-labelledby="addIPGroup">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="newType">用户编辑</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+                <form  id="user-mainModal-form">
+                    <input style="display:none" name="id" id="user-mainModal-id">
+                    <div class="col-12">
+                        <div class="form-group row">
+                            <label class="form-control-label col-2" ><span class="text-danger">* </span>姓名</label>
+                            <div class="col-10">
+                                <input type="text" class="form-control form-control" id="mainModal-userName" name="realName" >
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="form-control-label col-2" ><span class="text-danger">* </span>登陆名</label>
+                            <div class="col-10">
+                                <input type="text" class="form-control form-control" name="loginName" id="user-mainModal-loginName" >
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="form-control-label col-2" ><span class="text-danger">* </span>性别</label>
+                            <div class="col-10">
+                                <select  class="form-control form-control" id="mainModal-gender" name="gender">
+                                    <option value="1">男</option>
+                                    <option value="2">女</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="form-control-label col-2" ><span class="text-danger">* </span>身份</label>
+                            <div class="col-10">
+                                <select  class="form-control form-control" id="mainModal-userType" name="userType">
+                                    <option value="1">管理员</option>
+                                    <option value="2">医生</option>
+                                    <option value="3">普通用户</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="form-control-label col-2" ><span class="text-danger">* </span>年龄</label>
+                            <div class="col-10">
+                                <input  class="form-control form-control" id="mainModal-age"  name="age">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="form-control-label col-2" >籍贯</label>
+                            <div class="col-10">
+                                <input type="text" class="form-control form-control" id="mainModal-bornPlace" name="bornPlace">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="form-control-label col-2" >联系电话</label>
+                            <div class="col-10">
+                                <input type="text" class="form-control form-control" id="mainModal-phoneNumber" name="phoneNumber">
+                            </div>
+                        </div>
+
+                        <div class="form-group row" id="user-mainModal-role">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-link" data-dismiss="modal">取消</button>
+                <button type="button" id="user-mainModal-delete" class="btn btn-danger checked-confirm">删除用户</button>
+                <button type="button" class="btn btn-success"  id="user-mainModal-save">保存</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    loadJS("/static/views/sysUser.js");
+</script>
+

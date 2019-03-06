@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+    <title>登陆</title>
+
+    <link href="/css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="/css/simple-line-icons.css" rel="stylesheet"/>
+    <link href="/css/style.css" rel="stylesheet"/>
+    <link href="/css/common.css" rel="stylesheet"/>
+
+</head>
+
+<body class="app flex-row align-items-center">
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card-group mb-0">
+                <div class="card p-4">
+                    <div class="card-block">
+                        <h3>医疗影像管理系统</h3>
+                        <form id="login-from">
+                            <div class="form-group">
+                                <label class="form-control-label" >用户名</label>
+                                <input type="text" class="form-control" id="username" required="true"/>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-control-label" for="password">密码</label>
+                                <input type="password" class="form-control" id="password" required="true"/>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <button id="login" type="submit" class="btn btn-primary px-4">登录</button>
+                                </div>
+                                <div class="col-6 text-right">
+                                    <button id='register' type="button" data-toggle="modal" data-target="#registerModal" class="btn btn-link px-4"></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="addIPGroup">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="newType">注册用户</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+                <form  id="user-register-form">
+                    <div class="col-12">
+                        <div class="form-group row">
+                            <label class="form-control-label col-3" ><span class="text-danger">* </span>登陆名</label>
+                            <div class="col-9">
+                                <input type="text" class="form-control form-control-sm" id="loginName" name="loginName"  required="true" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="form-control-label col-3" ><span class="text-danger">* </span>真实姓名</label>
+                            <div class="col-9">
+                                <input type="text" class="form-control form-control-sm"  name="realName" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="form-control-label col-3" ><span class="text-danger">* </span>登陆密码</label>
+                            <div class="col-9">
+                                <input type="text" class="form-control form-control-sm"  name="password"  required="true" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="form-control-label col-3" >身份</label>
+                            <div class="col-9">
+                                <input type="text" class="form-control form-control-sm" id="register-userType" value="普通用户" disabled="disabled" />
+                                <input type="text" class="form-control form-control-sm"  name="userType" value="3" style="display:none;"/>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="form-control-label col-3" ><span class="text-danger">* </span>性别</label>
+                            <div class="col-9">
+                                <select  class="form-control form-control-sm"  name="gender">
+                                    <option value="1">男</option>
+                                    <option value="2">女</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="form-control-label col-3" ><span class="text-danger">* </span>年龄</label>
+                            <div class="col-9">
+                                <input  class="form-control form-control-sm" id="mainModal-age"  name="age"/>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="form-control-label col-3" >籍贯</label>
+                            <div class="col-9">
+                                <input type="text" class="form-control form-control-sm" id="mainModal-bornPlace" name="bornPlace"/>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="form-control-label col-3" >联系电话</label>
+                            <div class="col-9">
+                                <input type="text" class="form-control form-control-sm"  name="phoneNumber"/>
+                            </div>
+                        </div>
+
+                        <div class="form-group row" id="user-mainModal-role">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-link" data-dismiss="modal">取消</button>
+                            <button  type="submit" class="btn btn-primary"  id="register-save">保存</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<script src="/js/libs/jquery.min.js"></script>
+<script src="/js/libs/popper.js"></script>
+<script src="/js/libs/bootstrap.js"></script>
+<script src="/js/libs/bootstrap-notify.min.js"></script>
+<script src="/js/libs/jquery.validate.min.js"></script>
+<script src="/js/app-1.2.js?v=1.0"></script>
+
+<script src="//cdn.bootcss.com/angular.js/1.5.6/angular.min.js"></script>
+<script type="text/javascript">
+
+        $('#username')[0].focus();
+        $('#login-from').validate({
+            submitHandler: function() {
+                $.ajax("/marsh/login", {
+                    method: "POST",
+                    data: {
+                        loginName: $('#username').val(),
+                        password: $('#password').val(),
+                        ts: new Date().getTime()
+                    },
+                    success: function(data){
+                        if(data.code == '10000'){
+                            console.log(data)
+                            window.location.href="/index";
+                        }
+                    },
+                    error: function(msg){
+                        console.log(msg);
+                        $.notify(msg.responseJSON.message, {
+                         type: 'danger'
+                      })
+                    }
+                });
+            }
+        })
+        $('#loginName')[0].focus();
+      $('#user-register-form').validate({
+         submitHandler: function() {
+             $.ajax("/marsh/user/save", {
+                 method: "POST",
+                 data: JSON.stringify($('#user-register-form').serializeJSON()),
+                 success: function(data){
+                      if (data.code == JB.SUCCESS) {
+                     $('#registerModal').modal('hide');
+                     $.notify('注册成功,现在登陆吧', {
+                         type: 'success'
+                      })
+             }
+                 }
+             });
+         }
+     })
+
+    </script>
+</body>
+
+</html>
